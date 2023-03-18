@@ -21,7 +21,7 @@ class RoomsController < ApplicationController
   room = Room.find(params[:id])
   room.destroy
   redirect_to root_path
-  # ここ
+  # ここ destroyアクション後に飛ぶページ
   end
 
   private

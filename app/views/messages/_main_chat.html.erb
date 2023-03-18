@@ -7,7 +7,7 @@
   <div class="right-header">
     <div class="header-button">
       <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
-      <%# room DELETE /rooms/:id(.:format) %>
+      <%# room_path はdestroyアクションに飛ぶために必要 %>
     </div>
   </div>
 </div>
